@@ -6,17 +6,14 @@ The official distribution repository for GlyphFolio desktop installers and relea
 
 Visit [glyphfolio.com/download](https://glyphfolio.com/download) for availability.
 
-## Planned first-release platforms
+## First release: Mac
 
 | Platform | Architecture | Installer |
 | --- | --- | --- |
 | macOS | Apple Silicon | .dmg |
 | macOS | Intel | .dmg |
-| Windows 11 | x64 | .exe (NSIS) |
-| Ubuntu 24.04 | x64 | .deb |
-| Ubuntu 24.04 | x64 | AppImage |
 
-Windows ARM64 is not part of the first-release scope. Additional operating-system requirements will be recorded with the qualified release rather than assumed here.
+Windows 11 x64 (.exe) and Ubuntu 24.04 x64 (.deb/AppImage) are planned after the Mac public release. They remain unavailable until their own release checks pass. Windows ARM64 is not in the current scope. Additional operating-system requirements will be recorded with the qualified release rather than assumed here.
 
 ## Release safety
 
