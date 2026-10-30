@@ -2,7 +2,7 @@
 
 The official distribution repository for GlyphFolio desktop installers and release notes.
 
-**No public downloads are available yet.** The first release is undergoing qualification. This repository contains release documentation only; it does not contain application source, development builds, signing keys, or installers.
+**GlyphFolio0.1.4 for Mac Apple Silicon is available.** Download the signed/notarized installer and SHA-256 checksums from [the versioned release](https://github.com/glyphfolio/glyphfolio-releases/releases/tag/v0.1.4). Application source and signing keys are not distributed in this repository.
 
 Visit [glyphfolio.com/download](https://glyphfolio.com/download) for availability.
 
@@ -10,14 +10,14 @@ Visit [glyphfolio.com/download](https://glyphfolio.com/download) for availabilit
 
 | Platform | Architecture | Installer |
 | --- | --- | --- |
-| macOS | Apple Silicon | .dmg |
-| macOS | Intel | .dmg |
+| macOS26 qualified | Apple Silicon | [0.1.4 .dmg](https://github.com/glyphfolio/glyphfolio-releases/releases/download/v0.1.4/GlyphFolio-0.1.4-macOS-Apple-Silicon.dmg) |
+| macOS | Intel | Not yet available |
 
 Windows 11 x64 (.exe) and Ubuntu 24.04 x64 (.deb/AppImage) are planned after the Mac public release. They remain unavailable until their own release checks pass. Windows ARM64 is not in the current scope. Additional operating-system requirements will be recorded with the qualified release rather than assumed here.
 
 ## Release safety
 
-Installers will only appear after the remaining release checks pass and the owner approves publication. There is no automatic publication workflow in this repository. Drafts and private qualification artifacts are not public releases.
+The owner approved the first Apple Silicon publication on2026-10-30. Runtime qualification was performed on macOS26.6.2; older macOS versions remain unverified. Intel, Windows and Linux must pass their own remaining checks before publication. There is no automatic publication workflow in this repository. Drafts and private qualification artifacts are not public releases.
 
 Each approved release must include release notes, exact platform/architecture labels, and SHA-256 checksums. Checksums detect byte changes; they do not replace platform code signing or authenticated updater metadata.
 

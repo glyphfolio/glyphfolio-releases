@@ -1,6 +1,6 @@
 # Publication policy
 
-Status: **UNPUBLISHED — release qualification remains open.**
+Status: **Apple Silicon0.1.4 publication authorized2026-10-30. Other platforms remain unpublished.**
 
 Do not upload development, migration, preview, local-signature, or qualification builds as public installers. Do not commit binary installers or credentials to Git history.
 
@@ -9,7 +9,7 @@ Before publishing a release:
 1. Record the exact application source revision and clean build provenance.
 2. Pass required correctness, security, data migration/recovery, plugin isolation, performance, and native operating-system acceptance checks for every advertised platform.
 3. Resolve blocking dependency security findings; retain all intentionally unexecuted or deferred checks explicitly.
-4. For the first release, build qualified macOS Apple Silicon and Intel artifacts. Windows 11 x64 and Ubuntu 24.04 x64 follow later and must remain unavailable until independently qualified. Verify helper inclusion and exclusion of test fixtures and secret material.
+4. The owner narrowed the first public release to qualified macOS Apple Silicon. Physical Intel qualification remains pending; do not publish an Intel installer. macOS26 is qualified; older macOS runtime behavior is explicitly unverified. Windows 11 x64 and Ubuntu 24.04 x64 follow later and must remain unavailable until independently qualified. Verify helper inclusion and exclusion of test fixtures and secret material.
 5. Complete Developer ID signing/notarization for macOS and the approved Windows signing/distribution policy. Verify Linux package contents and installation behavior.
 6. Verify each installer and generate SHA256SUMS from the actual final uploaded bytes. Retain platform signatures and release evidence.
 7. Obtain final owner approval for public release. Preparation of this repository is not that approval.
