@@ -18,3 +18,5 @@ Before publishing a release:
 Native automatic updates require their own qualified artifact formats, authenticated metadata, anti-downgrade checks, and explicit feed activation. They must not use the old Electron feed or equate installer publication with updater qualification.
 
 The initial website deliberately has disabled download controls. Changes to this policy or website must not silently convert failed or unexecuted checks into passing results.
+
+Apple Silicon 0.1.5 was separately authorized and published on 2026-10-30 with the Sync and Save icon changes. The historic 0.1.4 release remains available; platform scope is unchanged.
