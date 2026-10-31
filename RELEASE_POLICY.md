@@ -20,3 +20,5 @@ Native automatic updates require their own qualified artifact formats, authentic
 The initial website deliberately has disabled download controls. Changes to this policy or website must not silently convert failed or unexecuted checks into passing results.
 
 Apple Silicon 0.1.5 was separately authorized and published on 2026-10-30 with the Sync and Save icon changes. The historic 0.1.4 release remains available; platform scope is unchanged.
+
+Apple Silicon 0.1.6 was authorized and published on 2026-10-31 with Cloud settings and scrollbar changes. Prior 0.1.4/0.1.5 releases remain available. Windows 11 x64 and Ubuntu 24.04 x64 are now in private preparation; their artifacts and feed paths remain unpublished until independent gates pass.
