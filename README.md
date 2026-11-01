@@ -2,7 +2,7 @@
 
 The official distribution repository for GlyphFolio desktop installers and release notes.
 
-**GlyphFolio 0.1.7 for Mac Apple Silicon is available.** Download the signed/notarized installer and SHA-256 checksums from [the current versioned release](https://github.com/glyphfolio/glyphfolio-releases/releases/tag/v0.1.7). Application source and signing keys are not distributed in this repository.
+**GlyphFolio 0.1.8 for Mac Apple Silicon is available.** Download the signed/notarized installer and SHA-256 checksums from [the current versioned release](https://github.com/glyphfolio/glyphfolio-releases/releases/tag/v0.1.8). Application source and signing keys are not distributed in this repository.
 
 Visit [glyphfolio.com/download](https://glyphfolio.com/download) for availability.
 
@@ -10,7 +10,7 @@ Visit [glyphfolio.com/download](https://glyphfolio.com/download) for availabilit
 
 | Platform | Architecture | Installer |
 | --- | --- | --- |
-| macOS 26 qualified | Apple Silicon | [0.1.7 .dmg](https://github.com/glyphfolio/glyphfolio-releases/releases/download/v0.1.7/GlyphFolio-0.1.7-macOS-Apple-Silicon.dmg) |
+| macOS 26 qualified | Apple Silicon | [0.1.8 .dmg](https://github.com/glyphfolio/glyphfolio-releases/releases/download/v0.1.8/GlyphFolio-0.1.8-macOS-Apple-Silicon.dmg) |
 | macOS | Intel | Not yet available |
 
 Windows 11 x64 (.exe) and Ubuntu 24.04 x64 (.deb/AppImage) are planned after the Mac public release. They remain unavailable until their own release checks pass. Windows ARM64 is not in the current scope. Additional operating-system requirements will be recorded with the qualified release rather than assumed here.
@@ -28,3 +28,5 @@ See [RELEASE_POLICY.md](RELEASE_POLICY.md) for the publication checklist. No lic
 Previous release [0.1.4](https://github.com/glyphfolio/glyphfolio-releases/releases/tag/v0.1.4) remains available with its original installers and checksums.
 
 Previous release [0.1.5](https://github.com/glyphfolio/glyphfolio-releases/releases/tag/v0.1.5) remains available with its original installers and checksums.
+
+Previous release [0.1.7](https://github.com/glyphfolio/glyphfolio-releases/releases/tag/v0.1.7) remains available with its original installers and checksums.
